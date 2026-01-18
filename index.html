@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mortgage Processor Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Mortgage Operations Portal</h1>
+        <div id="status-bar">Pipeline Status: <span id="pipeline-count">3 Files Pending</span></div>
+    </header>
+
+    <main>
+        <section class="loan-card">
+            <h2>Loan ID: FHA-7748 (Braveena V)</h2>
+            <p>Type: FHA | Status: <span class="status-badge" id="loan-status">Reviewing</span></p>
+            
+            <div class="checklist">
+                <h3>Document Indexing Checklist</h3>
+                <ul>
+                    <li><input type="checkbox" class="doc-check"> Appraisal Report</li>
+                    <li><input type="checkbox" class="doc-check"> Title Commitment</li>
+                    <li><input type="checkbox" class="doc-check"> Income Proofs</li>
+                    <li><input type="checkbox" class="doc-check"> Closing Disclosure (CD)</li>
+                </ul>
+            </div>
+            <button onclick="updateStatus()">Validate Documents</button>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

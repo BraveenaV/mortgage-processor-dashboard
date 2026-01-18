@@ -1,6 +1,5 @@
-A responsive web dashboard designed for mortgage processors to manage document indexing and 'Clear-to-Close' workflows
-
 # Mortgage Processor Dashboard
+A responsive web dashboard designed for mortgage processors to manage document indexing and 'Clear-to-Close' workflows
 
 ## Overview
 A front-end application designed to solve common inefficiencies in the mortgage closing process. [cite_start]This dashboard helps processors track document readiness for **FHA, VA, and Conventional loans**[cite: 18].
